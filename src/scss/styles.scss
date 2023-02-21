@@ -1,0 +1,18 @@
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+
+body {
+  background-color: #20262e;
+}
+
+.row .form-control:focus {
+  box-shadow: none;
+}
+
+.row .form-control:disabled {
+  background-color: #fff;
+}
+
+.row .btn {
+  border-radius: 50%;
+}
